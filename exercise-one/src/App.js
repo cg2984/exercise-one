@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
 
+import ArticleListing from './pages/articleListing';
+import Article from './pages/article';
+
 function App() {
   return (
     <div className="App">
-      <h1> This is my header!</h1>
-      <p>This is my paragraph!</p>
+      <ArticleListing/>
     </div>
   );
 }

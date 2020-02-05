@@ -13,7 +13,7 @@ function ArticleCard(){
 				<a href=""> read more </a>
 			</div>
 		</article>
-	)
+	);
 }
 
 export default ArticleCard

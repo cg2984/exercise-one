@@ -11,7 +11,7 @@ function Article(){
 		<main>
 		</main>
 	</div>
-	)
+	);
 }
 
 export default Article;
