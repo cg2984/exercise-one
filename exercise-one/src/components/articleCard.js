@@ -5,11 +5,11 @@ import React from 'react';
 function ArticleCard({articleData}){
 	console.log('article card article', articleData);
 	return (
-		<article>
-			<div>
-				<img src="" alt=""/>
+		<article className="articleCard">
+			<div className="articleCard__image">
+				<img src={articleData.image.url} alt={articleData.image.alt}/>
 			</div>
-			<div>
+			<div className="articleCard__text">
 				<h2>{articleData.title}</h2>
 				<p> date</p>
 				<p>{articleData.blurb}</p>

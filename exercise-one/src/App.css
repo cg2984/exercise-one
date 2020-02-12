@@ -1,38 +1,17 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.articleCard{
+  /*Flex Box*/
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  /*Layout*/
+  /*responsive layout stuff*/
+  margin: 0 auto; /*this is making the top and bottom margins 0px and making the left and right margins auto. its top&bottom right&left. if all 4 values its top right bottom left*/
+  max-width: 1080px; /*making the max width 1080px; so that it doesnt go over on a bigger screen*/
+  width:100%; /*making sure that the object is as wide as the screen*/
+}
+.articleCard__image{
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.articleCard__text{
+  
 }
