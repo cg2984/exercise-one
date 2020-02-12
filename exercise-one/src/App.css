@@ -1,17 +1,25 @@
 .articleCard{
+  border: 1px solid black;
   /*Flex Box*/
   display: flex;
-
-  /*Layout*/
-  /*responsive layout stuff*/
-  margin: 0 auto; /*this is making the top and bottom margins 0px and making the left and right margins auto. its top&bottom right&left. if all 4 values its top right bottom left*/
+  /*Layout (all of it is responsive)*/
+  margin: 0 auto 30px; /*this is making the top and bottom margins 0px and making the left and right margins auto. its top&bottom right&left. if all 4 values its top right bottom left*/
   max-width: 1080px; /*making the max width 1080px; so that it doesnt go over on a bigger screen*/
   width:100%; /*making sure that the object is as wide as the screen*/
+  padding:15px 20px;
 }
 .articleCard__image{
+  flex-basis: 30%;
+
+}
+
+.articleCard__image img{
+  height:auto;
+  width:100%;
 
 }
 
 .articleCard__text{
-  
+  flex-basis:70%;
+  padding-left:20px;
 }

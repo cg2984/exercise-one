@@ -13,7 +13,7 @@ function ArticleCard({articleData}){
 				<h2>{articleData.title}</h2>
 				<p> date</p>
 				<p>{articleData.blurb}</p>
-				<a href=""> read more </a>
+				<a href='article/${articleData.id}'> read more </a>
 			</div>
 		</article>
 	);
