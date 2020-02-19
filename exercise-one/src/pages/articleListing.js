@@ -5,9 +5,9 @@ import Data from '../components/data';
 function ArticleListing(){
 	console.log('data', Data);
 	return(
-		<div>
+		<div className="articleListing">
 			<header>
-				<h1>Articles</h1>
+				<h1 className="articleListing__header">Articles</h1>
 			</header>
 			<main>
 				{Data.map((article, i) => (
