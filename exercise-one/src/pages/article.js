@@ -27,8 +27,8 @@ function Article(){
 			//this thing needs to be here for some reason
 			>
 			<div className = 'articleHeaderWrapper'>
-				<h1>{article.title}</h1>
-				<p>{article.publishedDate}</p>
+				<h1 className = 'article__title'>{article.title}</h1>
+				<p className = 'article__date'>{article.publishedDate}</p>
 				<p>{article.blurb}</p>
 			</div>
 		</header>

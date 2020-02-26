@@ -11,9 +11,9 @@ function ArticleCard({articleData}){
 			</div>
 			<div className="articleCard__text">
 				<h2>{articleData.title}</h2>
-				<p> date</p>
+				<p className = "articleCard__date">{articleData.publishedDate}</p>
 				<p>{articleData.blurb}</p>
-				<a href={`article/${articleData.id}`}> read more </a>
+				<a href={`article/${articleData.id}`}> Read More </a>
 			</div>
 		</article>
 	);

@@ -24,6 +24,11 @@
   padding-left:20px;
 }
 
+.articleCard__date{
+  flex-basis:70%;
+  padding-left:10px;
+}
+
 .articleListing{
   margin:0 auto;
   max-width: 1080px;
@@ -35,12 +40,26 @@
   background-size:cover;
   padding:100px 25px;
   background-position: center;
+  background-color:#C3C3C3;
+  margin: 0 auto;
+  padding:40px 0;
 }
 
 .articleHeaderWrapper{
   margin: 0 auto;
-  max-width:1080px;
+  max-width:640px;
   width: 100%;
+}
+
+.article__title{
+  margin:5px 0;
+}
+
+.article__date{
+  font-size:12px;
+  margin:0;
+  padding: 0px;
+  margin-top:auto;
 }
 
 .articleContentWrapper{
