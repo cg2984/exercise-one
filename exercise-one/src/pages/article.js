@@ -2,6 +2,7 @@ import React from 'react';
 import {useParams} from "react-router-dom";
 import {useEffect, useState} from "react";
 import DATA from "../components/data";
+import ArticleItem from "../components/ArticleItem"
 
 function Article(){
 	console.log("DATA",DATA)
@@ -34,7 +35,10 @@ function Article(){
 		</header>
 		<main className="articleContent">
 			<div className="articleContentWrapper">
-				{article.articleText && article.articleText.map((text,i)=> <p key={i}>{text.data}</p>)}
+				{article.articleText && 
+					article.articleText.map((text,i)=> (
+						<ArticleItem key={i} data={text.data} type={text.type}/>
+				))}
 			</div>
 		</main>
 	</div>
